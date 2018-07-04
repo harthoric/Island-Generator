@@ -1,2 +1,2 @@
 # Island-Generator
-Procedural island generator. 
+Procedural island generator using simplex noise. 
