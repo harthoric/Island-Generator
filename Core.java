@@ -60,11 +60,11 @@ public class Core extends Application {
 			curves.getChildren().add(new Circle(i, ((400 - Math.sqrt(160000 - 4 * 40000 + i ^ 2 + 400 * i)) / 2), 1));
 		}
 
-		// set properties
+		// Set properties
 		Properties property = new Properties();
 		property.setProperties(scrollBars);
 
-		// set handlers
+		// Set handlers
 		Draw draw = new Draw();
 		property.setHandlers(draw.getImage(), draw.getNormalImage());
 
